@@ -1,4 +1,4 @@
-package dynamicvalidation
+package beegodynamicvalidation
 
 import (
 	"testing"
