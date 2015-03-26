@@ -3,11 +3,11 @@ Quite hacky solution for calling beego validate by string identifiers instead of
 
 Example Usage:
 
-    import "github.com/byrnedo/BeegoDynamicValidator/dynamicvalidation"
+    import bdv "github.com/byrnedo/beegodynamicvalidation"
 
     ...
 
-    dynV := DynamicValidation{}
+    dynV := bdv.DynamicValidation{}
 
     isValid, err := dynV.ValidByStrings("MyField", "Required;Alpha", "myvalue")
 
