@@ -3,7 +3,7 @@ Quite hacky solution for calling beego validate by string identifiers instead of
 
 Example Usage:
 
-    import bdv "github.com/byrnedo/beegodynamicvalidation"
+    import bdv "github.com/adxtosolutions/beegodynamicvalidation"
 
     ...
 

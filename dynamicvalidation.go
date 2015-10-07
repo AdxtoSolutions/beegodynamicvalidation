@@ -2,11 +2,13 @@
 //
 // Copyright 2014 Donal Byrne.
 //
-//      Most of the code is as was in beego.validation. The changes 
-//      I made are mostly the renaming of the Valid function to 
-//      ValidByStrings and chaning it to take explicit strings 
+// Copyright 2015 David V. Wallin
+//
+//      Most of the code is as was in beego.validation. The changes
+//      I made are mostly the renaming of the Valid function to
+//      ValidByStrings and chaning it to take explicit strings
 //      instead of a tagged struct in the normal beego case.
-//     
+//
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -23,11 +25,12 @@ package beegodynamicvalidation
 
 import (
 	"fmt"
-	. "github.com/astaxie/beego/validation"
 	"reflect"
 	"regexp"
 	"strconv"
 	"strings"
+
+	. "github.com/dvwallin/beego/validation"
 )
 
 type DynamicValidation struct {
